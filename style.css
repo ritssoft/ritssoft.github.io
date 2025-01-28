@@ -13,11 +13,11 @@ body {
     padding: 2rem 0;
 }
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0;
 }
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 nav {
     margin-top: 1rem;
@@ -42,26 +42,28 @@ nav a:hover {
     margin: 0 auto;
 }
 h2 {
-    border-bottom: 2px solid #4facfe;
+    border-bottom: 3px solid #4facfe;
     display: inline-block;
     margin-bottom: 1rem;
 }
-.skills-list {
-    display: flex;
-    flex-wrap: wrap;
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+.skills-list, .certifications-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.skills-list li {
+.skills-list li, .certifications-list li {
     background: #4facfe;
     color: #fff;
-    margin: 0.5rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-}
-.job {
-    margin-bottom: 1rem;
 }
 footer {
     text-align: center;
